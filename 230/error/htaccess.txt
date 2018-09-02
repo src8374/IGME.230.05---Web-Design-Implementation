@@ -1,0 +1,1 @@
+ErrorDocument 404 /src8374/230/error/error.html
