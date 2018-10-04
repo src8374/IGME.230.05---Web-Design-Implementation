@@ -1,0 +1,163 @@
+html {
+    overflow-y: scroll;
+}
+
+body
+{
+	background-image: url("https://people.rit.edu/~src8374/230/project1/media/project1BackgroundImg.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-position: center; 
+	font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+a:link, a:hover, a:visited
+{
+    text-decoration: none;
+    color: black;
+}
+
+img{
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+h2{
+	color: white;
+	text-shadow: 0 2px 3px black;
+	font-size: 40px;
+	font-style: bold;
+	text-align: center;
+}
+
+h3{
+	color: white;
+	text-shadow: 0 2px 3px black;
+	font-size: 25px;
+	font-style: bold;
+	text-align: left;
+}
+
+p{
+	color: white;
+	text-shadow: 0 2px 3px black;
+	font-size: 18px;
+	text-align: left;
+}
+
+body h1
+{
+    color: rgb(241,143,58);
+    font-size: 75px;
+	font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+	background: rgb(241,143,58);
+	background: linear-gradient(0deg, rgba(241,143,58,1) 4%, rgba(143,80,3,1) 44%, rgba(217,124,11,1) 53%, rgba(255,187,0,1) 100%);
+	-webkit-background-clip: text;
+	text-shadow: 0 0 30px #000000;
+}
+
+
+#navigation a
+{
+    color: white;
+	text-shadow: 0 2px 3px black;
+    border: 5px ridge rgb(241,143,58);
+    display: inline-block;
+    min-width: 90px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin: 4px;
+    background: rgb(241,143,58);
+	background: linear-gradient(0deg, rgba(241,143,58,1) 4%, rgba(143,80,3,1) 44%, rgba(217,124,11,1) 53%, rgba(255,187,0,1) 100%);
+    transition: text-shadow .2s, top .5s;
+    box-shadow: 0px 8px 10px black;
+}
+
+#navigation a:hover
+{
+    text-shadow: 0px 4px 6px #663a14;
+	position: relative;
+	top: 3px;
+}
+
+#navigation .current a
+{
+	border: 5px inset #b26625;
+}
+
+header {
+    background: rgb(241,143,58);
+	background: linear-gradient(0deg, rgba(241,143,58,1) 4%, rgba(143,80,3,1) 44%, rgba(217,124,11,1) 53%, rgba(255,187,0,1) 100%);
+    max-width: 725px;
+    margin: 0px auto;
+    margin-top: 5px;
+    text-align: center;
+    padding: 20px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+    box-shadow: 0px 10px 15px black;
+	border: 5px ridge rgb(241,143,58);
+}
+
+#main
+{
+    font-size: 14px;
+    background: rgb(241,143,58);
+	background: linear-gradient(0deg, rgba(241,143,58,1) 4%, rgba(143,80,3,1) 44%, rgba(217,124,11,1) 53%, rgba(255,187,0,1) 100%);
+    max-width: 725px;
+    margin: 0px auto;
+    margin-top: 400px;
+    margin-bottom: 150px;
+    padding: 20px;
+    box-shadow: 0px 10px 15px black;
+	border: 5px ridge rgb(241,143,58);
+}
+
+img {
+	position: absolute;
+    left: 25%;
+    top: 0px;
+	z-index: -1;
+}
+
+footer
+{
+	color: white;
+	text-shadow: 0 2px 3px black;
+    text-align: center;
+    background: rgb(241,143,58);
+	background: linear-gradient(0deg, rgba(241,143,58,1) 4%, rgba(143,80,3,1) 44%, rgba(217,124,11,1) 53%, rgba(255,187,0,1) 100%);
+    width: 100%;
+    padding: 3px;
+    border-top: 2px inset rgb(241,143,58);
+    bottom: 0px;
+    left: 0;
+    margin: 0 auto;
+	position: fixed;
+}
+
+@media screen and (max-width: 735px)
+{
+    #navigation a
+    {
+        position: relative;
+        display: block;
+        text-decoration: none;
+        left: 0px;
+    }
+    
+    #navigation .current a
+    {
+        text-decoration: none;
+    }
+}
