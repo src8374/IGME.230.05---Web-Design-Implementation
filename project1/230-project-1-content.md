@@ -26,8 +26,8 @@ The gameplay involves various quick-time events that the player has to perform w
 
 ## 7. Screenshots
 
-![Screenshot 1](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Screenshot 1")
-![Screenshot 2](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Screenshot 1")
+![Screenshot 1](https://github.com/src8374/IGME.230.05---Web-Design-Implementation/blob/master/SteamBotProposal1.jpg "Screenshot 1")
+![Screenshot 2](https://github.com/src8374/IGME.230.05---Web-Design-Implementation/blob/master/SteamBotProposal2.jpg "Screenshot 1")
 
 ## 8. Developer
 
