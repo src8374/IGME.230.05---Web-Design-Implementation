@@ -32,3 +32,25 @@ The gameplay involves various quick-time events that the player has to perform w
 ## 8. Developer
 
 My name is Samuel Carr and obviously I study Game design and Development at RIT. What about the droid attack on the wookies?
+
+# PROJECT 1 DOCUMENTATION
+
+## Process for Designing the Site
+
+The process for designing the website began by mapping the content. I initially drafted what I wanted the proposal for the game to be, thinking about the color palette and what location the game would be set in. It was also important to consider how complex the game would be, as that would effect the complexity of the website layout. Upon deciding what my final content would consist of, I mapped out th layout on paper and looking into ways I could use CSS to make it happen.
+
+## Resources Used
+
+[https://www.w3schools.com/](https://www.w3schools.com/)
+
+[https://css-tricks.com/](https://css-tricks.com/)
+
+[https://stackoverflow.com/](https://stackoverflow.com/)
+
+[Robot Image](https://www.imperial-library.info/content/bestiaries/constructs)
+
+[Background Image](https://www.deviantart.com/chitonid/art/Hill-Top-Zone-125094387)
+
+## Project Requirements
+
+To meet the project requirements for the style declarations I specified the CSS for the header, footer, body, h1, h2, h3, p, and img to name a few. The HTML structure tags like header, nav, footer, and section are utilized to divide the pages. To fulfill the class and id selector requirements I used altered the #navigation and #main for the ID selectors and the .nav-image for the class selector. The site also uses responsive design to stack the navigation for when the width goes below 480px.
