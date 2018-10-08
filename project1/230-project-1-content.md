@@ -26,7 +26,8 @@ The gameplay involves various quick-time events that the player has to perform w
 
 ## 7. Screenshots
 
-Add screenshots.
+![Screenshot 1](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Screenshot 1")
+![Screenshot 2](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Screenshot 1")
 
 ## 8. Developer
 
