@@ -1,6 +1,18 @@
 Web Design and Development Project 2 Documentation - 
 
-Description - The web application above utilizes the Open AQ's air quality API to gather data from air quality test sites around the globe. Using the API, this site gathers the names of countries and their cities that have recorded data based upon air quality recently. To find the measure of air quality, select a country in the country drop-down menu then select a city and press the submit button. After loading the data from the API, it will be displayed in blocks according to the location of the recording station, if there is any. The border of the box is colored to indicate the danger level of the current air pollution recorded. The color of the boxes and their corresponding danger levels are explained below. By selecting a filter option you can see only air quality readings that are of a specific threat level. The website stores the last searched country. All of this information and an explanation of air quality is included at the bottom of the website.
+Description - The web application above utilizes the Open AQ's air quality API to
+ gather data from air quality test sites around the globe. Using the API,
+ this site gathers the names of countries and their cities that have recorded
+ data based upon air quality recently. To find the measure of air quality,
+ select a country in the country drop-down menu then select a city and press
+ the submit button. After loading the data from the API, it will be displayed
+ in blocks according to the location of the recording station, if there is any.
+ The border of the box is colored to indicate the danger level of the current
+ air pollution recorded. The color of the boxes and their corresponding danger
+ levels are explained below. By selecting a filter option you can see only air
+ quality readings that are of a specific threat level. The website stores the
+ last searched country. All of this information and an explanation of air quality
+ is included at the bottom of the website.
 
 Sources - Used w3schools to help with the css:
 https://www.w3schools.com/
@@ -8,7 +20,8 @@ https://www.w3schools.com/
 Used the API website for documentation on the Open Air API:
 https://openaq.org/#/?_k=a82wkj
 
-Referenced Matthew Coldsmith's implementation of the API to help with displaying data from the API and assigning threat level:
+Referenced Matthew Coldsmith's implementation of the API to help with displaying
+ data from the API and assigning threat level:
 http://www.matthewcoldsmith.com/about/
 
 Requirements - Remembers last country selected
@@ -27,6 +40,14 @@ Requirements - Remembers last country selected
 
 - Major functions of JS are commented
 
-- Above and beyond - tooltips for the chemical signs in the air quality warnings that display information when hovered over
+- Above and beyond - tooltips for the chemical signs in the air quality warnings
+ that display information when hovered over
 
-Grade - I find it difficult to give myself a grade but if I had to go with something it would be about an A- as the project goes decently above expectations with the tooltipped chemical signs but is rather plain-looking, though I think it still looks neat and is reasonably designed for its serious purpose. Also in the console window there seem to be errors that cannot be fixed but do not seem to crash the page that I could not remedy for the life of me, so I'm not sure if it is a problem with the API or my implemnation. Any fix I attempted would cause the API to not return data.
+Grade - I find it difficult to give myself a grade but if I had to go with
+ something it would be about an A- as the project goes decently above expectations
+ with the tooltipped chemical signs but is rather plain-looking, though I think
+ it still looks neat and is reasonably designed for its serious purpose. Also
+ in the console window there seem to be errors that cannot be fixed but do not
+ seem to crash the page that I could not remedy for the life of me, so I'm not
+ sure if it is a problem with the API or my implemnation. Any fix I attempted
+ would cause the API to not return data.
